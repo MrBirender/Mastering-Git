@@ -35,3 +35,6 @@ git checkout "commit hash": to switch to the commit hash.
 
 
 2. Delete the latest version and head back to the old version permanently.
+
+
+Explain what is a merge conflict.
