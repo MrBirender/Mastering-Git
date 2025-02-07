@@ -35,3 +35,18 @@ git checkout "commit hash": to switch to the commit hash.
 
 
 2. Delete the latest version and head back to the old version permanently.
+
+Question. How to send pull request to the main branch. and merge the pull request to the main branch.
+
+ step1. go the pull request section.
+ step2 create a pull request with title and message.
+ step3. and then send
+
+ step4. owner will check the pull request and merge it to the main branch.
+
+ step5. after merging the requested branch will not be deleated and you can delete it manually just by verifying it from the branch section on the main page of github.
+
+ after mergin the branch it will not be visible in the local repository.to have that run pull command.
+ ex. git pull origin 'brnach name':
+ but by defalult git pulls from the main branch.
+ then git pull will work the same.
