@@ -1,0 +1,37 @@
+git branch -M 'branch name': to rename the branch.
+
+=> how to create a new branch and chekcout to that branch.
+git branch "branch name": to create a new branch.
+git checkout "branch name": to checkout to the branch.
+
+shorthand to do both above commands.
+git checkout -b "branch name": to create and checkout to the branch.
+
+Note: while creating a new branch keep in mind the location where you are in.
+are you in the main branch or the nested branch.
+ *. to create a new branch from the main branch while stayin in the nested branch.
+ git branch 'new branch' 'source branch name': 
+ 
+**************************************
+
+origin is a shorthand given to the long url or the remote repository.
+ a. git remote add origin "https://github.com/username/repo.git": to add the remote repository with the nick name origin.
+
+ b. that is why we say: git push -u origin main
+
+
+git log : to see all the commits and press q to quit the logs.
+git checkout "commit hash": to switch to the commit hash. 
+
+
+=> by doing this i can achieve two thins: 
+1. explore older version of my project.
+  a. after exloration head back to the latest commit.
+    git checkout main: to head back to the latest commit.
+
+ b. if i have tried any changes and want to discard all those changes and head back to the latest commit. :
+   git checkout -f main: to head back to the latest commit with desacrding all the changes.
+
+
+
+2. Delete the latest version and head back to the old version permanently.
