@@ -1,3 +1,3 @@
-### Maya this side
+### Maya @ Birender this side
 
-Welcome to my new project latest version
+Welcome to the application landing page with the latest version.
