@@ -44,3 +44,6 @@ three ways to fix it:
 git reset --hard HEAD^
 git reset -- soft
 git reset --mixed
+
+
+what is the use of git revert.
