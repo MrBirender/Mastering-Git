@@ -47,3 +47,5 @@ git reset --mixed
 
 
 what is the use of git revert.
+
+what is the use of git stash.
