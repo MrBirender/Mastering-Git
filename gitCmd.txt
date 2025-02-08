@@ -38,3 +38,9 @@ git checkout "commit hash": to switch to the commit hash.
 
 
 Explain what is a merge conflict.
+
+what if you broke the production code and you want to fix it.
+three ways to fix it:
+git reset --hard HEAD^
+git reset -- soft
+git reset --mixed
